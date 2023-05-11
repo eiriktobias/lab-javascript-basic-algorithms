@@ -109,7 +109,7 @@ console.log(`The Latin word "et" appears ${count} times.`);
 //Bonus 2 (Don´t know how to remove space in between)
 
 let phraseToCheck = "taco cat";
-let phraseToCheckTrimmed = phraseToCheck.trim();
+let phraseToCheckTrimmed = phraseToCheck.trim.replaceAll(" ", "");
 
 let phraseReversed = "";
 for (let i = phraseToCheckTrimmed.length - 1; i >= 0; i--) {
